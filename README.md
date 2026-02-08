@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# EdgeTraz Agro: Plataforma de Trazabilidad Agro-Industrial con IA + Rust en el Edge
 
-# Run and deploy your AI Studio app
+![Status](https://img.shields.io/badge/Status-MVP_Phase-blue)
+![Tech](https://img.shields.io/badge/Stack-Rust_|_IA_|_Next.js-orange)
+![Market](https://img.shields.io/badge/Focus-Piura_Export_2026-green)
 
-This contains everything you need to run your app locally.
+**EdgeTraz Agro** es una solución de vanguardia diseñada para la agroexportación peruana (Mango, Uva, Limón). Utiliza computación en el borde (Edge Computing) con Rust para garantizar la inmutabilidad de los datos, procesamiento sin conexión a internet y trazabilidad completa desde la parcela hasta el puerto de destino.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VkNxlJfG25YYO8rf-2AHLd0vAB-HUk5c
+## 🚀 Visión 2026
+En un contexto donde las agroexportaciones peruanas superan los US$14,600 millones, EdgeTraz Agro permite a los productores de Piura y el norte del país reducir los rechazos en destino, optimizar el uso de recursos y cumplir con las normativas más estrictas de Europa y EE.UU. (GlobalG.A.P, FSMA).
 
-## Run Locally
+## ✨ Funcionalidades Clave del MVP
+- **Rust Edge Engine**: Procesamiento local en dispositivos IoT (ESP32/Raspberry Pi) para detección temprana de plagas y estrés hídrico sin dependencia de la nube.
+- **Trazabilidad Inmutable**: Registro de eventos (siembra, cosecha, empaque) mediante un Ledger distribuido ligero y firmas digitales.
+- **IA Predictiva**: Modelos TinyML desplegados en el edge para predicción de rendimientos y alertas fitosanitarias.
+- **Offline-First Sync**: Sincronización inteligente con protocolos de reintento e idempotencia para zonas con baja conectividad.
+- **Dashboard de Auditoría**: Reportes automáticos para SENASA y certificaciones internacionales.
 
-**Prerequisites:**  Node.js
+## 🛠 Stack Técnico
+- **Edge**: Rust (`tokio`, `embassy`, `rusqlite`), TensorFlow Lite (Edge AI).
+- **Backend**: Rust (Axum) + PostgreSQL (TimescaleDB para telemetría).
+- **Frontend**: Next.js 15 + Tailwind CSS + Framer Motion.
+- **Comunicaciones**: MQTT (Mosquitto), LoRaWAN para largo alcance en campo.
 
+## 📦 Estructura del Proyecto
+```text
+.
+├── docs/                   # Documentación técnica y de negocio
+│   ├── SPEC-001-Core.md    # Especificación funcional y técnica
+│   ├── Architecture.md     # Diagramas y flujos de datos
+│   └── Edge-Cases.md       # Matriz de riesgos y casos de borde
+├── edge/                   # Código fuente del Gateway en Rust
+├── backend/                # API Central en Rust
+└── frontend/               # Dashboard Web en Next.js
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠 Instalación y Uso (Ejemplo rápido)
+
+### Requisitos
+- Rust 1.80+
+- Node.js 22+
+- Docker (para base de datos local)
+
+### Ejecución del Edge Simulator
+```bash
+cd edge
+cargo run --bin simulator
+```
+
+## 📈 Plan de Lanzamiento
+1. **Validación (Q1 2026)**: Pilotos en Chulucanas y Tambogrande.
+2. **MVP Desarrollo (Q2 2026)**: Implementación de trazabilidad crítica.
+3. **Escalamiento (Q3 2026)**: Postulación a ProInnóvate / Startup Perú.
+
+---
+**Desarrollado por:** DreamCoder Team (Ronald, José Luis, [Tu Nombre])
+**Financiamiento Objetivo:** ProInnóvate Startup Perú 2026 (S/67,000+)
