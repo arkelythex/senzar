@@ -1,4 +1,5 @@
 # EdgeTraz Agro: Plataforma de Trazabilidad Agro-Industrial con IA + Rust en el Edge
+<img width="1885" height="988" alt="image" src="https://github.com/user-attachments/assets/436e9f6c-7564-43f2-9865-9850d7235b30" />
 
 ![Status](https://img.shields.io/badge/Status-MVP_Phase-blue)
 ![Tech](https://img.shields.io/badge/Stack-Rust_|_IA_|_Next.js-orange)
