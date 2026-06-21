@@ -56,3 +56,13 @@ cargo run --bin simulator
 ---
 **Desarrollado por:** DreamCoder Team (Ronald, José Luis, [Tu Nombre])
 **Financiamiento Objetivo:** ProInnóvate Startup Perú 2026 (S/67,000+)
+---
+
+## 🌐 ARKELYTEX Ecosystem
+
+| Project | Description |
+|---------|-------------|
+| [Dreamcoder08](https://github.com/Dreamcoder08) | Founder — Software Architect · GDE · Microsoft MVP |
+| [ARKELYTEX](https://github.com/arkelythex) | Engineering resilient systems for Latin America |
+
+Built by [Dreamcoder08](https://github.com/Dreamcoder08) — Software Architect, GDE, Microsoft MVP.
