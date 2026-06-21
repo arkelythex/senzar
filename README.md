@@ -5,6 +5,9 @@
 ![Tech](https://img.shields.io/badge/Stack-Rust_|_IA_|_Next.js-orange)
 ![Market](https://img.shields.io/badge/Focus-Piura_Export_2026-green)
 
+> **🏢 ARKELYTHEX Ecosystem** — This project is part of the [ARKELYTHEX](https://github.com/arkelythex) venture studio.  
+> The primary development hub is the [ARKELYTHEX monorepo](https://github.com/arkelythex/Arkelythex).
+
 **EdgeTraz Agro** es una solución de vanguardia diseñada para la agroexportación peruana (Mango, Uva, Limón). Utiliza computación en el borde (Edge Computing) con Rust para garantizar la inmutabilidad de los datos, procesamiento sin conexión a internet y trazabilidad completa desde la parcela hasta el puerto de destino.
 
 ## 🚀 Visión 2026
@@ -58,11 +61,12 @@ cargo run --bin simulator
 **Financiamiento Objetivo:** ProInnóvate Startup Perú 2026 (S/67,000+)
 ---
 
-## 🌐 ARKELYTEX Ecosystem
+## 🌐 ARKELYTHEX Ecosystem
 
-| Project | Description |
-|---------|-------------|
-| [Dreamcoder08](https://github.com/Dreamcoder08) | Founder — Software Architect · GDE · Microsoft MVP |
-| [ARKELYTEX](https://github.com/arkelythex) | Engineering resilient systems for Latin America |
-
-Built by [Dreamcoder08](https://github.com/Dreamcoder08) — Software Architect, GDE, Microsoft MVP.
+| Component | Description |
+|-----------|-------------|
+| [ARKELYTHEX Monorepo](https://github.com/arkelythex/Arkelythex) | Primary development hub — fiscal intelligence platform |
+| [Digital Public Peru](https://github.com/arkelythex/Digital_Public_peru) | Civic tech for fiscal transparency |
+| [elect-validate](https://github.com/arkelythex/elect-validate) | Electoral act validation suite |
+| [EdgeTraz-Agro](https://github.com/arkelythex/EdgeTraz-Agro) | Agro-industrial traceability |
+| [Founder](https://github.com/Dreamcoder08) | Dreamcoder08 — Software Architect · GDE · MVP |
