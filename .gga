@@ -1,0 +1,23 @@
+# Gentleman Guardian Angel Configuration — EdgeTraz Agro
+# Provider: DeepSeek V4 Flash via direct API
+
+# AI Provider — DeepSeek V4 Flash
+PROVIDER="deepseek:deepseek-chat"
+
+# File patterns to include in review
+FILE_PATTERNS="*.ts,*.tsx,*.js,*.jsx,*.rs,*.py,*.json,*.yml,*.yaml,*.md,*.toml,*.html,*.css"
+
+# File patterns to exclude from review
+EXCLUDE_PATTERNS="*.test.ts,*.spec.ts,*.test.tsx,*.spec.tsx,*.d.ts,bun.lock,*.snap,*.generated.*,node_modules/*,dist/*,target/*"
+
+# File containing code review rules (AGENTS.md)
+RULES_FILE="AGENTS.md"
+
+# Strict mode: fail if AI response is ambiguous
+STRICT_MODE="true"
+
+# Timeout: 120 seconds (DeepSeek API is fast)
+TIMEOUT="120"
+
+# Base branch for --pr-mode
+PR_BASE_BRANCH="main"
